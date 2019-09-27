@@ -1,0 +1,3 @@
+# ignore all .js and .component.vue files in the pages directory
+pages/**/*.js
+pages/**/*.component.vue
