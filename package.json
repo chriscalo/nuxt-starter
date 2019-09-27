@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chriscalo/nuxt-starter.git",
+  "author": "Chris Calo <chris.calo@gmail.com>",
+  "license": "MIT",
+  "_moduleAliases": {
+    "~": "."
+  },
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "dev": "nodemon -r esm ./index.js",
+    "build": "nuxt build",
+    "start": "node -r esm ./index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-start": "^0.1.4",
+    "link-module-alias": "^1.2.0",
+    "nuxt": "^2.9.2",
+    "postinstall-postinstall": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
