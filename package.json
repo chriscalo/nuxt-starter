@@ -19,7 +19,7 @@
     "express": "^4.17.3",
     "express-start": "^0.1.4",
     "link-module-alias": "^1.2.0",
-    "nuxt": "^2.9.2",
+    "nuxt": "^3.4.3",
     "postinstall-postinstall": "^2.0.0"
   },
   "devDependencies": {
